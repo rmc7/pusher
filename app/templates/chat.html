@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chatting !!</title>
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+    <link href="../static/css/text.css" rel="stylesheet">
+    <style type="text/css"></style>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="//js.pusher.com/2.2/pusher.min.js" type="text/javascript"></script>
+
+    <script type="text/javascript" src="../static/js/script.js"></script>
+
+</head>
+<body>
+    <div class="row chat-menu">
+        <div class="col-md-2"><p class="menu-text">Chat Up</p></div>
+        <div class="col-md-10"></div>
+
+    </div>
+
+    <div class="chat-body">
+
+
+        <div id="chat-login">
+            <h2 class="login-title">로그인하기</h2>
+            <input id="login-box" type="text" name="login">
+            <input id="login-button" type="submit" value=" 입력 ">
+        </div><br>
+
+        
+        <div id="chat">
+            <div class="row">
+                <div class="col-md-8 chat-left" id="chat-room">
+
+                </div>
+                <div class="col-md-4 chat-right" id="user-room">
+                    <h2 style="text-align:center">접속 중인 사람</h2>
+                </div>
+            </div><br>
+
+            <div>
+                <input type="text" id="input-chat" name="input-chat">
+                <input id="chat-button" type="submit" value=" 입력 ">
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
